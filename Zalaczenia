@@ -1,0 +1,6 @@
+// Zalaczenia
+If (`AH-07_P_Czas` = 1 And `AH-07_Tryb_Pracy` = 4 And `AH-07_Aw_Zb` = 0) Or (`AH-07_Tryb_Pracy` = 3 And `AH-07_Aw_Zb` = 0) Then
+`AH-07_ZAL_WNW_2B` = 1
+Else
+`AH-07_ZAL_WNW_2B` = 0
+End If
